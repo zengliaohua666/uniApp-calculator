@@ -1,0 +1,77 @@
+
+.container {
+    background-color: #010101;
+    height:100vh;
+    width:100%;
+	overflow: hidden;
+}
+.header{
+    height:36%;
+    width:100%;
+    align-items: flex-end;
+    padding:4rpx 40rpx 4rpx 20rpx;
+	display: flex;
+	box-sizing: border-box;
+}
+.keyboard{
+    height:64%;
+    width:100%;
+    padding:4rpx 30rpx;
+    flex-wrap: wrap;
+	display: flex;
+	box-sizing: border-box;
+}
+.outputText,.outputTextSmall{
+    width:100%;
+    height:200rpx;
+    color:#FFFFFF;
+    text-align: end;
+}
+.outputText{
+    font-size:160rpx;
+}
+.outputTextSmall{
+    font-size:116rpx;
+}
+.keys,.zeroKeys,.operatorKeys-top,.operatorKeys-right{
+    width:148rpx;
+    height:148rpx;
+    justify-content: center;
+    align-items: center;
+    border-radius:148rpx;
+    margin:20rpx 12rpx;
+	display: flex;
+}
+.keys-nubmer,.zeroKeys{
+    background-color:#333333;
+}
+.zeroKeys{
+    width:158px;
+	justify-content: left;
+	    padding: 0px 54rpx;
+	    box-sizing: border-box;
+}
+.operatorKeys-top{
+    background-color: #a4a4a4;
+}
+.operatorKeys-right{
+    background-color: #f79f31;
+}
+.keys:active,.zeroKeys:active{
+    background-color: #737373;
+}
+.keys text,.zeroKeys text,.operatorKeys-right text{
+    font-size:74rpx;
+    color: #FFFFFF;
+}
+.operatorKeys-top text{
+    font-size:60rpx;
+    color: #010101;
+}
+.operatorKeys-top:active{
+    background-color: #d9d9d9;
+}
+.operatorKeys-right:active{
+    background-color: #f5c891;
+}
+
